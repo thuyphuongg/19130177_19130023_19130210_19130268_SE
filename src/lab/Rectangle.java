@@ -20,6 +20,6 @@ public class Rectangle implements Shape {
 	// Phuong thuc tinh chu vi hinh chu nhat
 	@Override
 	public double perimeter() {
-		return (width+height)/2;
+		return (width+height)*2;
 	}
 }
